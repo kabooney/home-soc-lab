@@ -1,49 +1,71 @@
-# Home SOC Lab
+# 🛡️ Home SOC Lab
 
-## Objective
+## Overview
 
-Build a home Security Operations Center (SOC) using virtual machines to practice cybersecurity skills including:
+This project documents my Home Security Operations Center (SOC) built in VirtualBox for hands-on cybersecurity training.
 
-- Network monitoring
-- Malware analysis
-- Log analysis
-- Threat detection
-- Incident response
-
+---
 
 ## Lab Environment
 
-Host Machine
+### Host Machine
 
 - Windows 11 Pro
 
-Virtualization
+### Hypervisor
 
-- VirtualBox
+- Oracle VirtualBox
 
-Virtual Machines
+### Virtual Machines
 
-- Windows 11
-- Kali Linux
-- Ubuntu Server
+- Windows 11 (Target)
+- Kali Linux (Attacker)
+- Ubuntu Server (SIEM)
 
+---
 
-## Phase 1 - Environment Setup
+# Phase 1 – Environment Setup ✅
 
-Completed:
+## Objectives
 
-- Installed VirtualBox
-- Created Windows 11 VM
-- Created Kali Linux VM
-- Created Ubuntu Server VM
-- Verified all VMs boot successfully
+- Install VirtualBox
+- Create three virtual machines
+- Verify each machine boots successfully
 
+## Screenshots
 
-## Next Steps
+### VirtualBox
+
+![VirtualBox](Screenshots/Phase1/VirtualBox-Phase1.png)
+
+### Windows 11
+
+![Windows](Screenshots/Phase1/Windows11-Phase1.png)
+
+### Kali Linux
+
+![Kali](Screenshots/Phase1/KaliLinux-Phase1.png)
+
+### Ubuntu
+
+![Ubuntu](Screenshots/Phase1/Ubuntu-Phase1.png)
+
+---
+
+## Skills Learned
+
+- Virtualization
+- Operating System Installation
+- VM Configuration
+- Basic Network Planning
+
+---
+
+## Next Phase
 
 - Configure networking
 - Install Sysmon
 - Install Splunk
-- Install Security Onion
-- Generate attack traffic
-- Detect attacks
+- Forward Windows logs
+- Simulate attacks from Kali
+- Detect attacks in Splunk
