@@ -117,11 +117,11 @@ This project is designed to simulate a small Security Operations Center (SOC). T
 
 ### Kali Linux → Ubuntu Server
 
-![Kali Ping Ubuntu](Screenshots/Phase2/Kali-ping-ubuntu.png)
+![Kali Ping Ubuntu](Screenshots/phase2/Kali-ping-ubuntu.png)
 
 ### Windows 11 → Ubuntu Server
 
-![Windows Ping Ubuntu](Screenshots/Phase2/windows-ping.png)
+![Windows Ping Ubuntu](Screenshots/phase2/windows-ping.png)
 
 ## Skills Learned
 
